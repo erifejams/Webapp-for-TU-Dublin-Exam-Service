@@ -1,0 +1,239 @@
+{% load change_lang %}
+{% load i18n %}
+{% load static %}
+
+<!---this is the page for the uk user--->
+<!---I addressed masculinity by the colour scheme: shades of blue and white, which are warm colours-->
+<!DOCTYPE html>
+	<html lang="en">
+
+		<head>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		  <meta name="description" content="this is the FAQ TU Dublin Exam webpage">
+		  <meta name="author" content="Erifeoluwa Jamgbadi">
+		  <link rel="stylesheet"  href="{%static '../static/css/FAQ_Uk.css' %}" type="text/css">
+		  <script src="{%static '../static/js/FAQ_Ireland.js' %}"></script>
+		</head>
+
+		<body>
+			<!--this is the menu bar-->
+			<header>
+				<nav class = "container2">
+					<div class ="topnav">
+						<input type="text" placeholder="Search..">
+					</div>
+					
+					
+					<!--this is the change the page depending on where the user lives, according to culturalization of the county the user is from
+					it allows the chosen personas to pick their country and then the country displays the 
+					cultural dimensions that was chosen by the group, which are femininity vs masculinity and low context vs high context-->
+					<div style="width: 80px; float:right; height:100px; margin:5px"><a href="index3" style="color:black" ><u>{%trans "Norway" %}</u></a></div>
+					<div style="width: 80px; float:right; height:100px; margin:5px"><a href="index2" style="color:black"><u>{%trans "Ireland" %}</u></a></div>
+					
+					<!--this is for internalization: this allows for the languages to be displayed on the page and the user can then pick, which then translates the page to the language--->
+					<div class="top-bar">            
+						<!-- using template tag change_lang -->            
+						{% get_language_info_list for LANGUAGES as languages %}            
+						<div>            
+							<div class="row d-flex align-items-center">              
+								<div class="col-md-6 d-md-block d-none">             
+								{% for language in languages %}                  
+									<b><a href="{% change_lang language.code %}" style="color:black">                       
+										{{ language.name_local }}                 
+									</a></b>             
+								{% endfor %}            
+								</div>            
+							</div>          
+						</div>
+					</div>
+					
+					<!--TU Dublin logo-->
+					<img src = "{%static '../static/img/TUDublinlogo2.png' %}" height="200px" alt="logo" class="logo">
+				</nav>
+				
+				<nav class = "container">
+					<ul>
+						<li>{%trans "Homepage" %}</li>
+						<li>{%trans "Location" %}<li>
+						<li>{%trans "Appeals" %}<li>
+						<li>{%trans "Timetable" %}</li>
+					</ul>
+				</nav>
+				
+				
+			</header>
+			
+			<!--this breadcrumb navigation addresses the dimension low content,so that the user can find their way 
+				back and they are less likely to be lost on the webapp-->
+			<nav>
+				<ul class="breadcrumb">
+				  <li><a href="#">{%trans "Homepage" %} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/<a></li>
+				  <li><a href="#">{%trans "Examinations" %} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></li>
+				  <li>{%trans "Frequently Asked Questions" %} </li>
+				</ul>
+			</nav
+			
+			<div>
+				<h1>{%trans "Frequently Asked Questions" %}</h1>
+				<p>{%trans "This page is to find the answer to your examination questions. Examinations are in two sessions, Christmas and summer exams. You will have to site these exams depending on the programme you are registered for, unless there is a valid excuse." %}</p>
+			</div>
+			
+			<!-- ======= Cta Section - Timetable - got this code from Scaffold bootstrap ======= -->
+			<section id="cta2" class="cta2">
+				<div>
+					<div class="row" data-aos="zoom-in">
+						<div>
+							<ul>.
+								<h3>{%trans "Resources" %}</h3>
+								<li>
+									<p>&#10148; {%trans "Where do I access past papers?" %}</p>
+									<div>{%trans "Past examination papers can be accessed via the <u><b>Library Portal" %}</b></u></div>
+								</li>
+								
+								<br>
+								
+								<li>
+									<p>&#10148; {%trans "How can I access my exam timetable?" %}</p>
+									<div>{%trans "Timetables are available on the TU Dublin website <u><b>exam section</b></u> and are published approximately one month before exams commence.  Publish dates will be widely advertised through social media and email." %}</div>
+								</li>
+							</ul>	
+						</div>
+					</div>
+				 </div>
+			</section><!-- End Cta Section -->
+			
+			<!-- ======= Cta Section ======= -->
+			<section id="cta" class="cta">
+				<div>
+					<div class="row" data-aos="zoom-in">
+						<div>
+							<h3>{%trans "Location" %}</h3>
+							<ul>
+								<li>
+									<p>&#10148;{%trans " How can I find the location of my exams?" %}</p>
+									<div>{%trans "The location of the exam will be detailed to each student in advance of the date normally with the exam timetable. Students should familiarize themselves with the location of the exam prior to the date of their first exam. On occasion the location of an exam may change for operational reasons, students <u><b>should check</b></u> the website for updates in advance of the day." %}</div>
+								</li>
+							</ul>
+						</div>
+					</div> 
+				<div>
+			</section><!-- End Cta Section -->
+			
+			<!-- ======= Cta Section ======= -->
+			<section id="cta2" class="cta2">
+					<div class="row" data-aos="zoom-in">
+					  <div>
+							<h3>{%trans "Examination" %}</h3>
+							<ul>
+								<li>
+									<p>&#10148;{%trans "Do I need to register for exams?" %}</p>
+									<div>{%trans "All registered students are automatically entered for exams." %}</div>
+								</li>
+								
+								<br>
+								
+								<li>
+									<p>&#10148; {%trans "What do I need to gain entry to the exam venue on the day?" %}</p>
+									<div>{%trans "All students should present a current <u><b>Student ID Card</b></u> to gain entry to an examination venue. Alternative photographic ID is also acceptable i.e. Passport or Garda ID." %}</div>
+								</li>
+								
+								<br>
+								
+								<li>
+									<p>&#10148; {%trans "What happens if I am late for the exam?" %}</p>
+									<div>{%trans "Normally, no student shall be admitted to the Exam more than one half hour after the start of the exam; in exceptional circumstances however, and provided that no other student sitting the same paper has left the Exam a student may be admitted later, at the discretion of the Exam Secretary.  In such circumstances extra time will not normally be allowed." %}</div>
+								</li>
+								
+								<br>
+								
+								<li>
+									<p>&#10148; {%trans "What happens if I think I may have the wrong exam paper?" %}</p>
+									<div>{%trans "If you think you have the wrong exam paper it is important that you notify and check with the exam invigilator immediately, it is up to you to ensure you are in possession of the correct paper and that you follow the instructions printed on the exam paper and the answer book." %}</div>
+								</li>
+								
+								<br>
+								
+								<li>
+									<p>&#10148; {%trans "Do I need to confirm my attendance at the exam?" %}</p>
+									<div>{%trans "Students shall sign the Attendance Form when requested by the Invigilator, and shall leave their Student ID Card in a visible position on the desk." %}</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+			</section><!-- End Cta Section -->
+			
+			<!-- ======= Cta Section ======= -->
+			<section id="cta" class="cta">
+				<div>
+					<div class="row" data-aos="zoom-in">
+						<div>
+							<h3>{%trans "Special Arrangements, Illness and withdrawal" %}</h3>
+							<ul>
+							
+								<li>
+									<p>&#10148; {%trans "I am a student with a disability , I need extra help during the exams, what do I do?" %}</p>
+									<div>{%trans "If you are a student with a disability, ensure you register with the <b><u>Disability Service</u></b> well in advance of the exam to ensure special arrangements can be put in place for the duration of exams." %}</div>
+								</li>
+								
+								<br>
+								
+								<li>
+									<p>&#10148;{%trans "I need to take medication during my exam, should I tell someone before the exam starts?" %}</p>
+									<div>{%trans "Students required to take medication during an exam must inform the invigilator prior to commencement of the exam." %}</div>
+								</li>
+								
+								<br>
+								
+								<li>
+									<p>&#10148; {%trans "What happens if there is a serious incident during the exam?" %}</p>
+									<div class="q22">{%trans "In the event of fire or other serious cause the safety of the students and the Institutes staff shall be the primary concern and the Invigilator(s) shall evacuate the Exam in an orderly manner and without delay.  In such circumstances the exam shall be declared void and shall be rescheduled." %}</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section><!-- End Cta Section -->
+			
+			<!---I addressed localization by adding the (+353) to the numbers, so the useer will know to add the prefix, since it's not a local number->
+			<!--this is the contact question section-->	
+			<div class="flex-rw">
+			  <ul class="list-top">
+				<li><h4 class="list-header">Cathal Brugha</h4></li>
+				<li><a>{%trans "Exams in" %} Cathal Brugha Street</a></li>
+				<li><a>(+353) 01 402 4422</a></li>
+				<li><a>Exams.Cbs@TUDublin.ie</a></li>
+			  </ul>
+			  
+			  <ul class="list-top">
+				<li><h4 class="list-header">Kevin Street</h4></li>
+				<li><a>{%trans "Exams in" %} Kevin Street </a></li>
+				<li><a>(+353) 01 402 4810 </a></li>
+				<li><a>Exams.KevinSt@TUDublin.ie</a></li>
+			  </ul>
+			  
+			  <ul class="list-top">
+				<li><h4 class="list-header">Aungier Street </h4></li>
+				<li><a>{%trans "Exams in" %} Aungier Street </a></li>
+				<li><a>(+353) 01 402 7100</a></li>
+				<li><a>Exams.AungierSt@TUDublin.ie</a></li>
+			  </ul>
+			  
+			  <ul class="list-top">
+				<li id='help'><h4 class="list-header">Bolton Street</h4></li>
+				<li><a>{%trans "Exams in" %} Bolton Street</a></li>
+				<li><a>(+353) 01 402 3629</a></li>
+				<li><a>Exams.BoltonSt@TUDublin.ie</a></li>
+			  </ul>
+			  </section>
+			</div>
+	
+			<!--footer-->
+			<footer>
+				<p>{%trans "By" %} Erifeoluwa Jamgbadi</p>
+			</footer>
+			
+		</body>
+	</html>
+{%block content %}
+{% endblock %}

@@ -1,0 +1,229 @@
+{% load change_lang %}
+{% load i18n %}
+{% load static %}
+
+<!---this is the page for the norway user--->
+<!---I addressed femininity by the colour scheme: shades of purple and white, which are warm colours-->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="description" content="this is the FAQ TU Dublin Exam webpage">
+	  <meta name="author" content="Erifeoluwa Jamgbadi">
+	  <link rel="stylesheet" href="{%static '../static/css/FAQ_Norway.css' %}" id="theme-stylesheet">
+	  <script src="{%static '../static/js/FAQ_Ireland.js' %}"></script>
+	</head>
+
+<body>
+	<div id="all">	
+		<!--this is the menu bar-->
+		<header>
+			<nav class = "container2">
+				<div class ="topnav">
+					<input type="text" placeholder="Search..">
+				</div>
+				
+				<!--this is the change the page depending on where the user lives, according to culturalization of the county the user is from
+				it allows the chosen personas to pick their country and then the country displays the 
+				cultural dimensions that was chosen by the group, which are femininity vs masculinity and low context vs high context-->
+				<div style="width: 80px; float:right; height:100px; margin:5px"><a href="index" style="color:black" ><u>{%trans "UK" %}</u></a></div>
+				<div style="width: 80px; float:right; height:100px; margin:5px"><a href="index2" style="color:black"><u>{%trans "Ireland" %}</u></a></div>
+				
+				<div class="top-bar"> 
+					<!--this is for internalization: this allows for the languages to be displayed on the page and the user can then pick, 
+					which then translates the page to the language--->				
+					<!-- using template tag change_lang -->            
+					{% get_language_info_list for LANGUAGES as languages %}            
+					<div>            
+						<div>              
+							<div>             
+							{% for language in languages %}                  
+								<b><a href="{% change_lang language.code %}" style="color:black">                       
+									{{ language.name_local }}                 
+								</a></b>             
+							{% endfor %}            
+							</div>            
+						</div>          
+					</div>
+				</div>
+			
+				
+				<!--<img src = "{%static '../static/nor/img/TUDublinlogo2.png' %}" height="150px" alt="logo" class="logo">-->
+				<img src="{%static '../static/img/TUDublinlogo2.png' %}"  height="150px" alt="logo" class="img-fluid">
+			</nav>
+			
+			<nav class = "container">
+				<ul>
+					<li>{%trans "Homepage" %}</li>
+					<li>{%trans "Location" %}<li>
+					<li>{%trans "Appeals" %}<li>
+					<li>{%trans "Timetable" %}</li>
+				</ul>
+			</nav>
+			
+		</header>
+		
+		
+	</div>
+	
+	<!--this breadcrumb navigation addresses the dimension low content,so that the user can find their way 
+	back and they are less likely to be lost on the webapp-->
+	<nav>
+		<ul class="breadcrumb">
+		  <li><a href="#">{%trans "Homepage" %} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/<a></li>
+		  <li><a href="#">{%trans "Examinations" %} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/</a></li>
+		  <li>{%trans "Frequently Asked Questions" %} </li>
+		</ul>
+	</nav
+	
+	<div>
+		<h1>{%trans "Frequently Asked Questions" %}</h1>
+	</div>
+	
+	
+	<!--this is the examination question section-->
+	<div class = " p2">
+		<h3><u>{%trans "Examination" %}</u></h3>
+		<div class = "q2">
+			<p>&#10148; {%trans "Do I need to register for exams?" %}</p>
+		</div>
+		<div class="q22">{%trans "All registered students are automatically entered for exams." %}</div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "What do I need to gain entry to the exam venue on the day?" %}</p>
+		</div>
+		<div class="q22">{%trans "All students should present a current <u><b>Student ID Card</b></u> to gain entry to an examination venue. Alternative photographic ID is also acceptable i.e. Passport or Garda ID." %}</div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "What happens if I am late for the exam?" %}</p>
+		</div>
+		<div class="q22">{%trans "Normally, no student shall be admitted to the Exam more than one half hour after the start of the exam; in exceptional circumstances however, and provided that no other student sitting the same paper has left the Exam a student may be admitted later, at the discretion of the Exam Secretary.  In such circumstances extra time will not normally be allowed." %}</div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "What happens if I think I may have the wrong exam paper?" %}</p>
+		</div>
+		<div class="q22">{%trans "If you think you have the wrong exam paper it is important that you notify and check with the exam invigilator immediately, it is up to you to ensure you are in possession of the correct paper and that you follow the instructions printed on the exam paper and the answer book." %}</div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "Do I need to confirm my attendance at the exam?" %}</p>
+		</div>
+		<div class="q22">{%trans "Students shall sign the Attendance Form when requested by the Invigilator, and shall leave their Student ID Card in a visible position on the desk." %}</div>
+		
+	</div>
+	
+	
+	<!--this is the location question section-->
+	<div class = " p2">
+		<h3><u>{%trans "Location" %}</u></h3>
+		<div class = "q2">
+			<p>&#10148; {%trans "How can I find the location of my exams?" %}</p>
+		</div>
+		<div class="q22">{%trans "The location of the exam will be detailed to each student in advance of the date normally with the exam timetable. Students should familiarize themselves with the location of the exam prior to the date of their first exam. On occasion the location of an exam may change for operational reasons, students <u><b>should check</b></u> the website for updates in advance of the day." %}</div>
+	</div>
+	
+	<!--this is the resources question section-->
+	<div class = " p2">
+		<h3><u>{%trans "Resources" %}</u></h3>
+		<div class = "q2">
+			<p>&#10148; {%trans "Where do I access past papers?" %}</p>
+		</div>
+		<div class="q22">{%trans "Past examination papers can be accessed via the <u><b>Library Portal" %}</b></u></div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "How can I access my exam timetable?" %}</p>
+		</div>
+		<div class="q22">{%trans "Timetables are available on the TU Dublin website <u><b>exam section</b></u> and are published approximately one month before exams commence.  Publish dates will be widely advertised through social media and email." %}</div>
+		
+	</div>
+	
+	<!--this is the Special Arrangements, Illness and withdrawal question section-->
+	<div class = " p2">
+		<h3><u>{%trans "Special Arrangements, Illness and withdrawal" %}</u></h3>
+		<div class = "q2">
+			<p>&#10148; {%trans "I am a student with a disability , I need extra help during the exams, what do I do?" %}</p>
+		</div>
+		<div class="q22">{%trans "If you are a student with a disability, ensure you register with the <b><u>Disability Service</u></b> well in advance of the exam to ensure special arrangements can be put in place for the duration of exams." %}</div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "I need to take medication during my exam, should I tell someone before the exam starts?" %}</p>
+		</div>
+		<div class="q22">{%trans "Students required to take medication during an exam must inform the invigilator prior to commencement of the exam." %}</div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "What happens if there is a serious incident during the exam?" %}</p>
+		</div>
+		<div class="q22">{%trans "In the event of fire or other serious cause the safety of the students and the Institutes staff shall be the primary concern and the Invigilator(s) shall evacuate the Exam in an orderly manner and without delay.  In such circumstances the exam shall be declared void and shall be rescheduled." %}</div>
+
+	</div>
+	
+	
+	<!--this is the exam result question section-->
+	<div class = " p2">
+		<h3><u>{%trans "Exam Result" %}</u></h3>
+		<div class = "q2">
+			<p>&#10148; {%trans "Where can I access my result?" %}</p>
+		</div>
+		<div class="q22">{%trans "Students will be sent a link to their student email, when the results are available." %}</div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "How will I find out if my results are ready for release?" %}</p>
+		</div>
+		<div class="q22">{%trans "All students will be notified by e-mail to their student e-mail account outlining the dates and times for release of exam results." %}</div>
+		
+		<div class = "q2">
+			<p>&#10148; {%trans "I have failed my repeat exam what should I do?" %}</p>
+		</div>
+		<div class="q22">{%trans "If you have failed your repeat exam/s you have three possible options open to you :" %}
+			<ol>
+				<li>{%trans "Carry the module into the next year: <br><b>Students may only ever carry a maximum of 10 ECTS credits so if you have failed more than 10 ECTS Credits this option is not available to you. Each school has different rules regarding carry modules and the decision of the exam board regarding carries is final. In some cases schools will not allow their students to carry any modules they retain the right to do." %}</b></li>
+				<li>{%trans "Internally repeat" %} </li>
+				<li>{%trans "Externally repeat" %}</li>
+			</ol>
+		</div>
+	</div>
+	
+	<!---I addressed localization by adding the (+353) to the numbers, so the useer will know to add the prefix, since it's not a local number->
+	<!--this is the contact question section-->	
+	<div class="flex-rw">
+	  <ul class="list-top">
+		<li><h4 class="list-header">Cathal Brugha</h4></li>
+		<li><a>{%trans "Exams in" %} Cathal Brugha Street</a></li>
+		<li><a>(+353) 01 402 4422</a></li>
+		<li><a>Exams.Cbs@TUDublin.ie</a></li>
+	  </ul>
+	  
+	  <ul class="list-top">
+		<li><h4 class="list-header">Kevin Street</h4></li>
+		<li><a>{%trans "Exams in" %} Kevin Street </a></li>
+		<li><a>(+353) 01 402 4810 </a></li>
+		<li><a>Exams.KevinSt@TUDublin.ie</a></li>
+	  </ul>
+	  
+	  <ul class="list-top">
+		<li><h4 class="list-header">Aungier Street </h4></li>
+		<li><a>{%trans "Exams in" %} Aungier Street </a></li>
+		<li><a>(+353) 01 402 7100</a></li>
+		<li><a>Exams.AungierSt@TUDublin.ie</a></li>
+	  </ul>
+	  
+	  <ul class="list-top">
+		<li id='help'><h4 class="list-header">Bolton Street</h4></li>
+		<li><a>{%trans "Exams in" %} Bolton Street</a></li>
+		<li><a>(+353) 01 402 3629</a></li>
+		<li><a>Exams.BoltonSt@TUDublin.ie</a></li>
+	  </ul>
+	  </section>
+	</div>
+	
+	<!--footer-->
+	<footer>
+		<p>{%trans "By" %} Erifeoluwa Jamgbadi</p>
+	</footer>
+	
+</body>
+</html>
+{%block content %}
+{% endblock %}
+ 

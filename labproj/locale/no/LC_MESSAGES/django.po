@@ -1,0 +1,404 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-24 03:01+0100\n"
+"PO-Revision-Date: 2020-04-24 06:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: no\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+
+#: .\labproj\settings.py:115
+msgid "English"
+msgstr "Engelsk"
+
+#: .\labproj\settings.py:116
+msgid "Irish"
+msgstr "Irsk"
+
+#: .\labproj\settings.py:117
+msgid "Norwegian"
+msgstr "Norsk"
+
+#: .\labproj\templates\index.html:29 .\labproj\templates\index2.html:60
+msgid "Norway"
+msgstr "Norsk"
+
+#: .\labproj\templates\index.html:30 .\labproj\templates\index3.html:30
+msgid "Ireland"
+msgstr "Irland"
+
+#: .\labproj\templates\index.html:54 .\labproj\templates\index.html:66
+#: .\labproj\templates\index2.html:49 .\labproj\templates\index3.html:55
+#: .\labproj\templates\index3.html:69
+msgid "Homepage"
+msgstr "Hjemmeside"
+
+#: .\labproj\templates\index.html:55 .\labproj\templates\index.html:106
+#: .\labproj\templates\index2.html:50 .\labproj\templates\index3.html:56
+#: .\labproj\templates\index3.html:113
+msgid "Location"
+msgstr "Sted"
+
+#: .\labproj\templates\index.html:56 .\labproj\templates\index2.html:51
+#: .\labproj\templates\index3.html:57
+msgid "Appeals"
+msgstr "Appeller"
+
+#: .\labproj\templates\index.html:57 .\labproj\templates\index2.html:52
+#: .\labproj\templates\index3.html:58
+msgid "Timetable"
+msgstr "Rutetabell"
+
+#: .\labproj\templates\index.html:67 .\labproj\templates\index3.html:70
+msgid "Examinations"
+msgstr "Helsesjekk"
+
+#: .\labproj\templates\index.html:68 .\labproj\templates\index.html:73
+#: .\labproj\templates\index2.html:67 .\labproj\templates\index3.html:71
+#: .\labproj\templates\index3.html:76
+msgid "Frequently Asked Questions"
+msgstr "Vanlige spørsmål"
+
+#: .\labproj\templates\index.html:74 .\labproj\templates\index2.html:68
+msgid ""
+"This page is to find the answer to your examination questions. Examinations "
+"are in two sessions, Christmas and summer exams. You will have to site these "
+"exams depending on the programme you are registered for, unless there is a "
+"valid excuse."
+msgstr ""
+"Denne siden skal finne svaret på eksamensoppgavene dine. Eksamener er i to "
+"økter, jule- og sommereksamener. Du må plassere disse eksamenene avhengig av "
+"hvilket program du er registrert for, med mindre det er gyldig unnskyldning."
+
+#: .\labproj\templates\index.html:83 .\labproj\templates\index3.html:122
+msgid "Resources"
+msgstr "Ressurser"
+
+#: .\labproj\templates\index.html:85 .\labproj\templates\index2.html:123
+#: .\labproj\templates\index3.html:124
+msgid "Where do I access past papers?"
+msgstr "Hvor får jeg tilgang til tidligere papirer?"
+
+#: .\labproj\templates\index.html:86 .\labproj\templates\index2.html:124
+#: .\labproj\templates\index3.html:126
+msgid "Past examination papers can be accessed via the <u><b>Library Portal"
+msgstr ""
+"Tidligere eksamensoppgaver kan nås via <u><b>Biblioteksportalen</b></u>"
+
+#: .\labproj\templates\index.html:92 .\labproj\templates\index3.html:129
+msgid "How can I access my exam timetable?"
+msgstr "Hvordan får jeg tilgang til eksamensplanen?"
+
+#: .\labproj\templates\index.html:93 .\labproj\templates\index3.html:131
+msgid ""
+"Timetables are available on the TU Dublin website <u><b>exam section</b></u> "
+"and are published approximately one month before exams commence.  Publish "
+"dates will be widely advertised through social media and email."
+msgstr ""
+"Tidsplaner er tilgjengelige på TU Dublin- <u><b>eksamensseksjonen</b></u> og "
+"publiseres omtrent en måned før eksamenene starter. Publiseringsdatoer vil "
+"bli mye annonsert gjennom sosiale medier og e-post."
+
+#: .\labproj\templates\index.html:109
+msgid " How can I find the location of my exams?"
+msgstr "Hvordan finner jeg plasseringen til eksamenene mine?"
+
+#: .\labproj\templates\index.html:110 .\labproj\templates\index3.html:117
+msgid ""
+"The location of the exam will be detailed to each student in advance of the "
+"date normally with the exam timetable. Students should familiarize "
+"themselves with the location of the exam prior to the date of their first "
+"exam. On occasion the location of an exam may change for operational "
+"reasons, students <u><b>should check</b></u> the website for updates in "
+"advance of the day."
+msgstr ""
+"Plasseringen av eksamen vil bli detaljert for hver student i forkant av "
+"datoen som normalt med eksamensplanen. Studentene skal gjøre seg kjent med "
+"plasseringen av eksamen før datoen for deres første eksamen. Noen ganger kan "
+"plasseringen av en eksamen endres av operasjonelle grunner, <u><b>bør</b></"
+"u> studentene <u><b>sjekke</b></u> nettstedet for oppdateringer i forkant av "
+"dagen."
+
+#: .\labproj\templates\index.html:122 .\labproj\templates\index3.html:82
+msgid "Examination"
+msgstr "Undersøkelse"
+
+#: .\labproj\templates\index.html:125 .\labproj\templates\index2.html:88
+#: .\labproj\templates\index3.html:84
+msgid "Do I need to register for exams?"
+msgstr "Må jeg registrere meg til eksamen?"
+
+#: .\labproj\templates\index.html:126 .\labproj\templates\index3.html:86
+msgid "All registered students are automatically entered for exams."
+msgstr "Alle registrerte studenter blir automatisk lagt opp til eksamen."
+
+#: .\labproj\templates\index.html:132 .\labproj\templates\index2.html:95
+#: .\labproj\templates\index3.html:89
+msgid "What do I need to gain entry to the exam venue on the day?"
+msgstr "Hva trenger jeg for å komme inn på eksamensstedet på dagen?"
+
+#: .\labproj\templates\index.html:133 .\labproj\templates\index3.html:91
+msgid ""
+"All students should present a current <u><b>Student ID Card</b></u> to gain "
+"entry to an examination venue. Alternative photographic ID is also "
+"acceptable i.e. Passport or Garda ID."
+msgstr ""
+"Alle studenter bør presentere et gjeldende <u><b>student-ID-kort for</b></u> "
+"å få adgang til et eksamenssted. Alternativ fotografisk ID er også "
+"akseptabel, dvs. Pass eller Garda ID."
+
+#: .\labproj\templates\index.html:139 .\labproj\templates\index2.html:102
+#: .\labproj\templates\index3.html:94
+msgid "What happens if I am late for the exam?"
+msgstr "Hva skjer hvis jeg kommer for sent til eksamen?"
+
+#: .\labproj\templates\index.html:140 .\labproj\templates\index3.html:96
+msgid ""
+"Normally, no student shall be admitted to the Exam more than one half hour "
+"after the start of the exam; in exceptional circumstances however, and "
+"provided that no other student sitting the same paper has left the Exam a "
+"student may be admitted later, at the discretion of the Exam Secretary.  In "
+"such circumstances extra time will not normally be allowed."
+msgstr ""
+"Normalt skal ingen student ta opp til eksamen mer enn en halv time etter "
+"eksamensstart; under eksepsjonelle omstendigheter, og forutsatt at ingen "
+"andre studenter som sitter på det samme papiret har forlatt eksamen, kan en "
+"student tas opp senere, etter eksamenssekretærens skjønn. Under slike "
+"omstendigheter vil det normalt ikke være tillatt med ekstra tid."
+
+#: .\labproj\templates\index.html:146 .\labproj\templates\index3.html:99
+msgid "What happens if I think I may have the wrong exam paper?"
+msgstr "Hva skjer hvis jeg tror jeg kan ha feil eksamensoppgave?"
+
+#: .\labproj\templates\index.html:147 .\labproj\templates\index3.html:101
+msgid ""
+"If you think you have the wrong exam paper it is important that you notify "
+"and check with the exam invigilator immediately, it is up to you to ensure "
+"you are in possession of the correct paper and that you follow the "
+"instructions printed on the exam paper and the answer book."
+msgstr ""
+"Hvis du mener at du har feil eksamensoppgave, er det viktig at du gir "
+"beskjed til og kontrollerer med eksamensvakten umiddelbart, er det opp til "
+"deg å forsikre deg om at du har riktig papir og at du følger instruksjonene "
+"trykt på eksamensoppgaven og svarboka."
+
+#: .\labproj\templates\index.html:153 .\labproj\templates\index3.html:104
+msgid "Do I need to confirm my attendance at the exam?"
+msgstr "Må jeg bekrefte at jeg deltar på eksamen?"
+
+#: .\labproj\templates\index.html:154 .\labproj\templates\index3.html:106
+msgid ""
+"Students shall sign the Attendance Form when requested by the Invigilator, "
+"and shall leave their Student ID Card in a visible position on the desk."
+msgstr ""
+"Studentene skal signere fremmøtelsesskjemaet når de blir bedt om det av "
+"tilsynsføreren, og skal la student-ID-kortet sittes synlig på pulten."
+
+#: .\labproj\templates\index.html:166 .\labproj\templates\index3.html:137
+msgid "Special Arrangements, Illness and withdrawal"
+msgstr "Spesielle ordninger, sykdom og tilbaketrekning"
+
+#: .\labproj\templates\index.html:170 .\labproj\templates\index2.html:116
+#: .\labproj\templates\index3.html:139
+msgid ""
+"I am a student with a disability , I need extra help during the exams, what "
+"do I do?"
+msgstr ""
+"Jeg er en student med nedsatt funksjonsevne, jeg trenger ekstra hjelp under "
+"eksamenene, hva gjør jeg?"
+
+#: .\labproj\templates\index.html:171 .\labproj\templates\index2.html:117
+#: .\labproj\templates\index3.html:141
+msgid ""
+"If you are a student with a disability, ensure you register with the "
+"<b><u>Disability Service</u></b> well in advance of the exam to ensure "
+"special arrangements can be put in place for the duration of exams."
+msgstr ""
+"Hvis du er en student med nedsatt funksjonsevne, må du forsikre deg om at du "
+"registrerer deg i <b><u>funksjonshemmingstjenesten</u></b> i god tid før "
+"eksamen for å sikre at spesielle ordninger kan settes i gang under "
+"eksamenens varighet."
+
+#: .\labproj\templates\index.html:177 .\labproj\templates\index3.html:144
+msgid ""
+"I need to take medication during my exam, should I tell someone before the "
+"exam starts?"
+msgstr ""
+"Jeg må ta medisiner under eksamenen, skal jeg si det til noen før eksamen "
+"starter?"
+
+#: .\labproj\templates\index.html:178 .\labproj\templates\index3.html:146
+msgid ""
+"Students required to take medication during an exam must inform the "
+"invigilator prior to commencement of the exam."
+msgstr ""
+"Studenter som er pålagt å ta medisiner under en eksamen, må informere "
+"tilkallingsvakten før eksamen begynner."
+
+#: .\labproj\templates\index.html:184 .\labproj\templates\index3.html:149
+msgid "What happens if there is a serious incident during the exam?"
+msgstr "Hva skjer hvis det er en alvorlig hendelse under eksamen?"
+
+#: .\labproj\templates\index.html:185 .\labproj\templates\index3.html:151
+msgid ""
+"In the event of fire or other serious cause the safety of the students and "
+"the Institutes staff shall be the primary concern and the Invigilator(s) "
+"shall evacuate the Exam in an orderly manner and without delay.  In such "
+"circumstances the exam shall be declared void and shall be rescheduled."
+msgstr ""
+"I tilfelle brann eller annen alvorlig årsak skal studentenes og instituttets "
+"sikkerhet være den største bekymringen, og tilsynsmannen (e) skal evakuere "
+"eksamenen på en ordnet måte og uten forsinkelse. Under slike omstendigheter "
+"skal eksamenen erklæres ugyldig og omlegges om."
+
+#: .\labproj\templates\index.html:197 .\labproj\templates\index.html:204
+#: .\labproj\templates\index.html:211 .\labproj\templates\index.html:218
+#: .\labproj\templates\index2.html:153 .\labproj\templates\index2.html:160
+#: .\labproj\templates\index2.html:167 .\labproj\templates\index2.html:174
+#: .\labproj\templates\index3.html:186 .\labproj\templates\index3.html:193
+#: .\labproj\templates\index3.html:200 .\labproj\templates\index3.html:207
+msgid "Exams in"
+msgstr "Eksamener"
+
+#: .\labproj\templates\index.html:227 .\labproj\templates\index2.html:183
+#: .\labproj\templates\index3.html:216
+msgid "By"
+msgstr "Av"
+
+#: .\labproj\templates\index2.html:47
+msgid "Menu"
+msgstr "Meny"
+
+#: .\labproj\templates\index2.html:58
+msgid "Pick your Country"
+msgstr "Velg ditt land"
+
+#: .\labproj\templates\index2.html:61 .\labproj\templates\index3.html:29
+msgid "UK"
+msgstr "Storbritannia"
+
+#: .\labproj\templates\index2.html:85
+msgid "Common Questions"
+msgstr "Vanlige spørsmål"
+
+#: .\labproj\templates\index2.html:89
+msgid "No."
+msgstr "Nei."
+
+#: .\labproj\templates\index2.html:96
+msgid "A <u><b>Student ID Card</b></u> is needed to enter the exam venue."
+msgstr ""
+"Et <u><b>student-ID-kort</b></u> er nødvendig for å komme inn på "
+"eksamensstedet."
+
+#: .\labproj\templates\index2.html:103
+msgid ""
+"Students are not allowed to enter the Exam more than one half hour after the "
+"start of the exam, except in some circumstances and if no other students "
+"sitting the same paper has left the exam hall. In those circumstances extra "
+"time will not be allowed."
+msgstr ""
+"Studenter har ikke lov til å gå opp til eksamen mer enn en halv time etter "
+"oppstart av eksamen, bortsett fra under noen omstendigheter, og hvis ingen "
+"andre studenter som har samme oppgave har forlatt eksamenshallen. Under "
+"disse omstendighetene blir det ikke tillatt ekstra tid."
+
+#: .\labproj\templates\index2.html:109 .\labproj\templates\index3.html:115
+msgid "How can I find the location of my exams?"
+msgstr "Hvordan finner jeg plasseringen til eksamenene mine?"
+
+#: .\labproj\templates\index2.html:110
+msgid ""
+"The location of the exam will be emailed to each student in advance of the "
+"date with the exam timetable. Students should familiarize themselves with "
+"the location of the exam prior to the date of their first exam. On occasion "
+"the location of an exam may change for operational reasons, students "
+"<u><b>should check</b></u> the website for updates in advance of the day."
+msgstr ""
+"Plasseringen av eksamen vil bli detaljert for hver student i forkant av "
+"datoen som normalt med eksamensplanen. Studentene skal gjøre seg kjent med "
+"plasseringen av eksamen før datoen for deres første eksamen. Noen ganger kan "
+"plasseringen av en eksamen endres av operasjonelle grunner, <u><b>bør</b></"
+"u> studentene <u><b>sjekke</b></u> nettstedet for oppdateringer i forkant av "
+"dagen."
+
+#: .\labproj\templates\index2.html:140
+msgid "Related Content"
+msgstr "Relatert innhold"
+
+#: .\labproj\templates\index3.html:158
+msgid "Exam Result"
+msgstr "Eksamensresultat"
+
+#: .\labproj\templates\index3.html:160
+msgid "Where can I access my result?"
+msgstr "Hvor kan jeg få tilgang til resultatet mitt?"
+
+#: .\labproj\templates\index3.html:162
+msgid ""
+"Students will be sent a link to their student email, when the results are "
+"available."
+msgstr ""
+"Studentene får tilsendt en lenke til studentenes e-post når resultatene er "
+"tilgjengelige."
+
+#: .\labproj\templates\index3.html:165
+msgid "How will I find out if my results are ready for release?"
+msgstr "Hvordan finner jeg ut om resultatene mine er klare til utgivelse?"
+
+#: .\labproj\templates\index3.html:167
+msgid ""
+"All students will be notified by e-mail to their student e-mail account "
+"outlining the dates and times for release of exam results."
+msgstr ""
+"Alle studenter vil bli varslet på e-post til studentenes e-postkonto som "
+"viser datoene og tidspunktene for utgivelse av eksamensresultater."
+
+#: .\labproj\templates\index3.html:170
+msgid "I have failed my repeat exam what should I do?"
+msgstr "Jeg har mislyktes i gjentakseksamen, hva skal jeg gjøre?"
+
+#: .\labproj\templates\index3.html:172
+msgid ""
+"If you have failed your repeat exam/s you have three possible options open "
+"to you :"
+msgstr ""
+"Hvis du har mislykket gjentatte eksamener, har du tre mulige alternativer "
+"for deg:"
+
+#: .\labproj\templates\index3.html:174
+msgid ""
+"Carry the module into the next year: <br><b>Students may only ever carry a "
+"maximum of 10 ECTS credits so if you have failed more than 10 ECTS Credits "
+"this option is not available to you. Each school has different rules "
+"regarding carry modules and the decision of the exam board regarding carries "
+"is final. In some cases schools will not allow their students to carry any "
+"modules they retain the right to do."
+msgstr ""
+"Gjennomfør modulen til neste år: <br> <b> Studenter har bare maksimalt 10 "
+"studiepoeng, så hvis du har mislykket mer enn 10 studiepoeng, er dette "
+"alternativet ikke tilgjengelig for deg. Hver skole har forskjellige regler "
+"når det gjelder bæremoduler, og eksamensstyrets avgjørelse om karrierer er "
+"endelig. I noen tilfeller vil ikke skolene tillate elevene å bære moduler de "
+"har rett til."
+
+#: .\labproj\templates\index3.html:175
+msgid "Internally repeat"
+msgstr "Gjenta internt"
+
+#: .\labproj\templates\index3.html:176
+msgid "Externally repeat"
+msgstr "Gjenta eksternt"
+
+#~ msgid "Language"
+#~ msgstr "Språk"

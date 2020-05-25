@@ -1,0 +1,195 @@
+{% load change_lang %}
+{% load i18n %}
+{% load static %}
+
+<!---this is the page for the irish user--->
+<!---I addressed femininity by the colour scheme: shades of purple and white, which are warm colours-->
+<!DOCTYPE html>
+	<html lang="en">
+
+		<head>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		  <meta name="description" content="this is the FAQ TU Dublin Exam webpage">
+		  <meta name="author" content="Erifeoluwa Jamgbadi">
+		  <link rel="stylesheet" type="text/css" href="{%static '../static/css/FAQ_Ireland.css' %}">
+		  <script src="../static/js/FAQ_Ireland.js"' %}></script>
+		</head>
+		
+		<body>
+
+			<header>
+				<!--this is for internalization: this allows for the languages to be displayed on the page and the user can then pick, which then translates the page to the language--->
+				<div class= "top_nav2">            
+					<!-- using template tag change_lang -->            
+					{% get_language_info_list for LANGUAGES as languages %}            
+					<div>            
+						<div>              
+							<div>             
+							{% for language in languages %}                  
+								<b><a href="{% change_lang language.code %}" style="color:black">                       
+									{{ language.name_local }}                 
+								</a></b>           
+							{% endfor %}            
+							</div>            
+						</div>          
+					</div>
+				</div>
+			
+				<nav class = "container2">
+					<div class ="topnav">
+						<input type="text" placeholder="Search..">
+					</div>
+					<img src = "{%static '../static/img/TUDublinlogo2.png' %}" height="150px" alt="logo" class="logo">
+				</nav>
+				
+				<!--this is a dropdoown menu which lets the irish persona comfortably control the page and this addresses 
+				the culturatization(high context)-->
+				<div class="dropdown">
+				  <button onclick="myFunction()" class="dropbtn">{%trans "Menu" %}</button>
+				  <div id="myDropdown" class="dropdown-content">
+					<a href="#">{%trans "Homepage" %}</a>
+					<a href="#">{%trans "Location" %}</a>
+					<a href="#">{%trans "Appeals" %}</a>
+					<a href="#">{%trans "Timetable" %}</a>
+				  </div>
+				</div>
+				
+				<!--this is the change the page depending on where the user lives, according to culturalization of the county the user is from
+				it allows the chosen personas to pick their country and then the country displays the 
+				cultural dimensions that was chosen by the group, which are femininity vs masculinity and low context vs high context.
+				I made it a drop down menu to fit the high context dimension of Ireland-->
+				<div class="dropdown">
+				  <button class="dropbtn">{%trans "Pick your Country" %}</button>
+				  <div class="dropdown-content">
+					<a href="index3">{%trans "Norway" %}</a>
+					<a href="index">{%trans "UK" %}</a>
+				  </div>
+				</div>
+			</header>
+			
+			<div>
+				<h1>{%trans "Frequently Asked Questions" %}</h1>
+				<p>{%trans "This page is to find the answer to your examination questions. Examinations are in two sessions, Christmas and summer exams. You will have to site these exams depending on the programme you are registered for, unless there is a valid excuse." %}</p>
+			</div>
+			
+			
+			<div class="header-social-links">
+				<!--social media- got them from W3schools-->
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<a href="https://www.facebook.com/TechnologicalUniversityDublin.TUDublin/" class="fa fa-facebook"></a>
+				<a href="https://twitter.com/WeAreTUDublin" class="fa fa-twitter"></a>
+				<a href="https://www.youtube.com/user/DITPublicAffairs/" class="fa fa-youtube"></a>
+				<a href="https://www.instagram.com/tudublin/" class="fa fa-instagram"></a>
+			</div>
+			
+			
+			<section>
+				<div>
+				  <div>
+						<h3>{%trans "Common Questions" %}</h3>
+						<ul>
+							<li>
+								<p>&#10148; {%trans "Do I need to register for exams?" %}</p>
+								<div>{%trans "No." %}</div>
+							</li>
+							
+							<br>
+							
+							<li>
+								<p>&#10148;{%trans "What do I need to gain entry to the exam venue on the day?" %}</p>
+								<div>{%trans "A <u><b>Student ID Card</b></u> is needed to enter the exam venue." %}</div>
+							</li>
+							
+							<br>
+							
+							<li>
+								<p>&#10148;{%trans "What happens if I am late for the exam?" %}</p>
+								<div>{%trans "Students are not allowed to enter the Exam more than one half hour after the start of the exam, except in some circumstances and if no other students sitting the same paper has left the exam hall. In those circumstances extra time will not be allowed." %}</div>
+							</li>
+							
+							<br>
+							
+							<li>
+								<p>&#10148; {%trans "How can I find the location of my exams?" %}</p>
+								<div>{%trans "The location of the exam will be emailed to each student in advance of the date with the exam timetable. Students should familiarize themselves with the location of the exam prior to the date of their first exam. On occasion the location of an exam may change for operational reasons, students <u><b>should check</b></u> the website for updates in advance of the day." %}</div>
+							</li>
+							
+							<br>
+							
+							<li>
+								<p>&#10148; {%trans "I am a student with a disability , I need extra help during the exams, what do I do?" %}</p>
+								<div>{%trans "If you are a student with a disability, ensure you register with the <b><u>Disability Service</u></b> well in advance of the exam to ensure special arrangements can be put in place for the duration of exams." %}</div>
+							</li>
+							
+							<br>
+							
+							<li>
+								<p>&#10148; {%trans "Where do I access past papers?" %}</p>
+								<div>{%trans "Past examination papers can be accessed via the <u><b>Library Portal" %}</b></u></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<br><br>.
+			
+			<div style="text-align:center;">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/CpbURV2UAQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			
+			<br><br>.
+			
+			<!-- Related Contents -->
+			<!--these are bright images to address the dimension femininity. It contains pictures of people together.--->
+			<h1 class="my-4" style="text-align:center;">{%trans "Related Content" %}</h1>
+
+			<div class = "images" height="10%">
+				<a href = ""><img src="{%static '../static/img/timetable.jpg' %}" height="230px" width="350px" alt="Timetables" title= "exam timetables" hspace="40"></a>
+				<a href = ""><img src="{%static '../static/img/examination.jpg' %}" height="230px" title= "exam" alt="Examination" hspace="40"></a>
+				<a href = ""><img src="{%static '../static/img/location.jpg' %}" height="230px" width="300px" title="exam location" hspace="40" alt="Location"></a>
+				<a href = ""><img src="{%static '../static/img/resources.jpg' %}" height="230px" width="350px" title="resources" hspace="40" alt="Resources"></a>
+			</div>
+			
+			<!--this is the contact question section-->	
+			<div class="flex-rw">
+			  <ul class="list-top">
+				<li><h4 class="list-header">Cathal Brugha</h4></li>
+				<li><a>{%trans "Exams in" %} Cathal Brugha Street</a></li>
+				<li><a>01 402 4422</a></li>
+				<li><a>Exams.Cbs@TUDublin.ie</a></li>
+			  </ul>
+			  
+			  <ul class="list-top">
+				<li><h4 class="list-header">Kevin Street</h4></li>
+				<li><a>{%trans "Exams in" %} Kevin Street </a></li>
+				<li><a>01 402 4810 </a></li>
+				<li><a>Exams.KevinSt@TUDublin.ie</a></li>
+			  </ul>
+			  
+			  <ul class="list-top">
+				<li><h4 class="list-header">Aungier Street </h4></li>
+				<li><a>{%trans "Exams in" %} Aungier Street </a></li>
+				<li><a>01 402 7100</a></li>
+				<li><a>Exams.AungierSt@TUDublin.ie</a></li>
+			  </ul>
+			  
+			  <ul class="list-top">
+				<li id='help'><h4 class="list-header">Bolton Street</h4></li>
+				<li><a>{%trans "Exams in" %} Bolton Street</a></li>
+				<li><a>01 402 3629</a></li>
+				<li><a>Exams.BoltonSt@TUDublin.ie</a></li>
+			  </ul>
+			  </section>
+			</div>
+	
+			<!--footer-->
+			<footer>
+				<p>{%trans "By" %} Erifeoluwa Jamgbadi</p>
+			</footer>
+			
+		</body>
+	</html>
+{%block content %}
+{% endblock %}

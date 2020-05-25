@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-19 18:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\labproj\settings.py:117 .\labproj\templates\index2.html:43
+#: .\labproj\templates\index3.html:28
+msgid "English"
+msgstr ""
+
+#: .\labproj\settings.py:118 .\labproj\templates\index.html:29
+#: .\labproj\templates\index3.html:29
+msgid "Irish"
+msgstr ""
+
+#: .\labproj\settings.py:119 .\labproj\templates\index.html:28
+#: .\labproj\templates\index2.html:42
+msgid "Norwegian"
+msgstr ""
+
+#: .\labproj\templates\index.html:37 .\labproj\templates\index2.html:31
+#: .\labproj\templates\index3.html:37
+msgid "Homepage"
+msgstr ""
+
+#: .\labproj\templates\index.html:38 .\labproj\templates\index.html:80
+#: .\labproj\templates\index2.html:32 .\labproj\templates\index3.html:38
+#: .\labproj\templates\index3.html:86
+msgid "Location"
+msgstr ""
+
+#: .\labproj\templates\index.html:39 .\labproj\templates\index2.html:33
+#: .\labproj\templates\index3.html:39
+msgid "Appeals"
+msgstr ""
+
+#: .\labproj\templates\index.html:40 .\labproj\templates\index2.html:34
+#: .\labproj\templates\index3.html:40
+msgid "Timetable"
+msgstr ""
+
+#: .\labproj\templates\index.html:47 .\labproj\templates\index2.html:49
+#: .\labproj\templates\index3.html:49
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: .\labproj\templates\index.html:48 .\labproj\templates\index2.html:50
+msgid ""
+"This page is to find the answer to your examination questions. Examinations "
+"are in two sessions, Christmas and summer exams. You will have to site these "
+"exams depending on the programme you are registered for, unless there is a "
+"valid excuse."
+msgstr ""
+
+#: .\labproj\templates\index.html:57
+msgid "Resources"
+msgstr ""
+
+#: .\labproj\templates\index.html:59 .\labproj\templates\index2.html:105
+#: .\labproj\templates\index3.html:97
+msgid "Where do I access past papers?"
+msgstr ""
+
+#: .\labproj\templates\index.html:60 .\labproj\templates\index2.html:106
+#: .\labproj\templates\index3.html:99
+msgid "Past examination papers can be accessed via the <u><b>Library Portal"
+msgstr ""
+
+#: .\labproj\templates\index.html:66 .\labproj\templates\index3.html:102
+msgid "How can I access my exam timetable?"
+msgstr ""
+
+#: .\labproj\templates\index.html:67 .\labproj\templates\index3.html:104
+msgid ""
+"Timetables are available on the TU Dublin website <u><b>exam section</b></u> "
+"and are published approximately one month before exams commence.  Publish "
+"dates will be widely advertised through social media and email."
+msgstr ""
+
+#: .\labproj\templates\index.html:83
+msgid " How can I find the location of my exams?"
+msgstr ""
+
+#: .\labproj\templates\index.html:84 .\labproj\templates\index3.html:90
+msgid ""
+"The location of the exam will be detailed to each student in advance of the "
+"date normally with the exam timetable. Students should familiarize "
+"themselves with the location of the exam prior to the date of their first "
+"exam. On occasion the location of an exam may change for operational "
+"reasons, students <u><b>should check</b></u> the website for updates in "
+"advance of the day."
+msgstr ""
+
+#: .\labproj\templates\index.html:96 .\labproj\templates\index3.html:55
+msgid "Examination"
+msgstr ""
+
+#: .\labproj\templates\index.html:100 .\labproj\templates\index3.html:59
+msgid "All registered students are automatically entered for exams."
+msgstr ""
+
+#: .\labproj\templates\index.html:106 .\labproj\templates\index2.html:77
+#: .\labproj\templates\index3.html:62
+msgid "What do I need to gain entry to the exam venue on the day?"
+msgstr ""
+
+#: .\labproj\templates\index.html:107 .\labproj\templates\index3.html:64
+msgid ""
+"All students should present a current <u><b>Student ID Card</b></u> to gain "
+"entry to an examination venue. Alternative photographic ID is also "
+"acceptable i.e. Passport or Garda ID."
+msgstr ""
+
+#: .\labproj\templates\index.html:113 .\labproj\templates\index2.html:84
+#: .\labproj\templates\index3.html:67
+msgid "What happens if I am late for the exam?"
+msgstr ""
+
+#: .\labproj\templates\index.html:114 .\labproj\templates\index3.html:69
+msgid ""
+"Normally, no student shall be admitted to the Exam more than one half hour "
+"after the start of the exam; in exceptional circumstances however, and "
+"provided that no other student sitting the same paper has left the Exam a "
+"student may be admitted later, at the discretion of the Exam Secretary.  In "
+"such circumstances extra time will not normally be allowed."
+msgstr ""
+
+#: .\labproj\templates\index.html:120 .\labproj\templates\index3.html:72
+msgid "What happens if I think I may have the wrong exam paper?"
+msgstr ""
+
+#: .\labproj\templates\index.html:121 .\labproj\templates\index3.html:74
+msgid ""
+"If you think you have the wrong exam paper it is important that you notify "
+"and check with the exam invigilator immediately, it is up to you to ensure "
+"you are in possession of the correct paper and that you follow the "
+"instructions printed on the exam paper and the answer book."
+msgstr ""
+
+#: .\labproj\templates\index.html:127 .\labproj\templates\index3.html:77
+msgid "Do I need to confirm my attendance at the exam?"
+msgstr ""
+
+#: .\labproj\templates\index.html:128 .\labproj\templates\index3.html:79
+msgid ""
+"Students shall sign the Attendance Form when requested by the Invigilator, "
+"and shall leave their Student ID Card in a visible position on the desk."
+msgstr ""
+
+#: .\labproj\templates\index.html:140 .\labproj\templates\index3.html:110
+msgid "Special Arrangements, Illness and withdrawal"
+msgstr ""
+
+#: .\labproj\templates\index.html:144 .\labproj\templates\index2.html:98
+#: .\labproj\templates\index3.html:112
+msgid ""
+"I am a student with a disability , I need extra help during the exams, what "
+"do I do?"
+msgstr ""
+
+#: .\labproj\templates\index.html:145 .\labproj\templates\index2.html:99
+#: .\labproj\templates\index3.html:114
+msgid ""
+"If you are a student with a disability, ensure you register with the "
+"<b><u>Disability Service</u></b> well in advance of the exam to ensure "
+"special arrangements can be put in place for the duration of exams."
+msgstr ""
+
+#: .\labproj\templates\index.html:151 .\labproj\templates\index3.html:117
+msgid ""
+"I need to take medication during my exam, should I tell someone before the "
+"exam starts?"
+msgstr ""
+
+#: .\labproj\templates\index.html:152 .\labproj\templates\index3.html:119
+msgid ""
+"Students required to take medication during an exam must inform the "
+"invigilator prior to commencement of the exam."
+msgstr ""
+
+#: .\labproj\templates\index.html:158 .\labproj\templates\index3.html:122
+msgid "What happens if there is a serious incident during the exam?"
+msgstr ""
+
+#: .\labproj\templates\index.html:159 .\labproj\templates\index3.html:124
+msgid ""
+"In the event of fire or other serious cause the safety of the students and "
+"the Institutes staff shall be the primary concern and the Invigilator(s) "
+"shall evacuate the Exam in an orderly manner and without delay.  In such "
+"circumstances the exam shall be declared void and shall be rescheduled."
+msgstr ""
+
+#: .\labproj\templates\index2.html:29
+msgid "Menu"
+msgstr ""
+
+#: .\labproj\templates\index2.html:40
+msgid "Language"
+msgstr ""
+
+#: .\labproj\templates\index2.html:67
+msgid "Common Questions"
+msgstr ""
+
+#: .\labproj\templates\index2.html:70 .\labproj\templates\index3.html:57
+msgid "Do I need to register for exams?"
+msgstr ""
+
+#: .\labproj\templates\index2.html:78
+msgid "A <u><b>Student ID Card</b></u> is needed to enter the exam venue."
+msgstr ""
+
+#: .\labproj\templates\index2.html:85
+msgid ""
+"Students are not allowed to enter the Exam more than one half hour after the "
+"start of the exam, except in some circumstances and if no other students "
+"sitting the same paper has left the exam hall. In those circumstances extra "
+"time will not be allowed."
+msgstr ""
+
+#: .\labproj\templates\index2.html:122
+msgid "Related Content"
+msgstr ""
+
+#: .\labproj\templates\index3.html:88
+msgid "How can I find the location of my exams?"
+msgstr ""
+
+#: .\labproj\templates\index3.html:131
+msgid "Exam Result"
+msgstr ""
+
+#: .\labproj\templates\index3.html:133
+msgid "Where can I access my result?"
+msgstr ""
+
+#: .\labproj\templates\index3.html:135
+msgid ""
+"Students will be sent a link to their student email, when the results are "
+"available."
+msgstr ""
+
+#: .\labproj\templates\index3.html:138
+msgid "How will I find out if my results are ready for release?"
+msgstr ""
+
+#: .\labproj\templates\index3.html:140
+msgid ""
+"All students will be notified by e-mail to their student e-mail account "
+"outlining the dates and times for release of exam results."
+msgstr ""
+
+#: .\labproj\templates\index3.html:143
+msgid "I have failed my repeat exam what should I do?"
+msgstr ""
+
+#: .\labproj\templates\index3.html:145
+msgid ""
+"If you have failed your repeat exam/s you have three possible options open "
+"to you :"
+msgstr ""
+
+#: .\labproj\templates\index3.html:147
+msgid ""
+"Carry the module into the next year: <br><b>Students may only ever carry a "
+"maximum of 10 ECTS credits so if you have failed more than 10 ECTS Credits "
+"this option is not available to you. Each school has different rules "
+"regarding carry modules and the decision of the exam board regarding carries "
+"is final. In some cases schools will not allow their students to carry any "
+"modules they retain the right to do."
+msgstr ""
+
+#: .\labproj\templates\index3.html:148
+msgid "Internally repeat"
+msgstr ""
+
+#: .\labproj\templates\index3.html:149
+msgid "Externally repeat"
+msgstr ""

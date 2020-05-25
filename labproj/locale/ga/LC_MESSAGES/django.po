@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-24 03:02+0100\n"
+"PO-Revision-Date: 2020-04-24 06:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: .\labproj\settings.py:115
+msgid "English"
+msgstr "Béarla"
+
+#: .\labproj\settings.py:116
+msgid "Irish"
+msgstr "Gaeilge"
+
+#: .\labproj\settings.py:117
+msgid "Norwegian"
+msgstr "Ioruais"
+
+#: .\labproj\templates\index.html:29 .\labproj\templates\index2.html:60
+msgid "Norway"
+msgstr "Ioruais"
+
+#: .\labproj\templates\index.html:30 .\labproj\templates\index3.html:30
+msgid "Ireland"
+msgstr "Éireann"
+
+#: .\labproj\templates\index.html:54 .\labproj\templates\index.html:66
+#: .\labproj\templates\index2.html:49 .\labproj\templates\index3.html:55
+#: .\labproj\templates\index3.html:69
+msgid "Homepage"
+msgstr "Leathanach baile"
+
+#: .\labproj\templates\index.html:55 .\labproj\templates\index.html:106
+#: .\labproj\templates\index2.html:50 .\labproj\templates\index3.html:56
+#: .\labproj\templates\index3.html:113
+msgid "Location"
+msgstr "Suíomh"
+
+#: .\labproj\templates\index.html:56 .\labproj\templates\index2.html:51
+#: .\labproj\templates\index3.html:57
+msgid "Appeals"
+msgstr "Achomhairc"
+
+#: .\labproj\templates\index.html:57 .\labproj\templates\index2.html:52
+#: .\labproj\templates\index3.html:58
+msgid "Timetable"
+msgstr "Amchlár"
+
+#: .\labproj\templates\index.html:67 .\labproj\templates\index3.html:70
+msgid "Examinations"
+msgstr "Scrúduithe"
+
+#: .\labproj\templates\index.html:68 .\labproj\templates\index.html:73
+#: .\labproj\templates\index2.html:67 .\labproj\templates\index3.html:71
+#: .\labproj\templates\index3.html:76
+msgid "Frequently Asked Questions"
+msgstr "Ceisteanna Coitianta"
+
+#: .\labproj\templates\index.html:74 .\labproj\templates\index2.html:68
+msgid ""
+"This page is to find the answer to your examination questions. Examinations "
+"are in two sessions, Christmas and summer exams. You will have to site these "
+"exams depending on the programme you are registered for, unless there is a "
+"valid excuse."
+msgstr ""
+"Tá an leathanach seo chun freagra do cheisteanna scrúdaithe a fháil. Bíonn "
+"na scrúduithe i dhá sheisiún, scrúduithe na Nollag agus an tsamhraidh. Beidh "
+"ort na scrúduithe seo a shuíomh ag brath ar an gclár a bhfuil tú cláraithe "
+"dó, mura bhfuil leithscéal bailí ann."
+
+#: .\labproj\templates\index.html:83 .\labproj\templates\index3.html:122
+msgid "Resources"
+msgstr "Acmhainní"
+
+#: .\labproj\templates\index.html:85 .\labproj\templates\index2.html:123
+#: .\labproj\templates\index3.html:124
+msgid "Where do I access past papers?"
+msgstr "Cá bhfaighidh mé iarpháipéir?"
+
+#: .\labproj\templates\index.html:86 .\labproj\templates\index2.html:124
+#: .\labproj\templates\index3.html:126
+msgid "Past examination papers can be accessed via the <u><b>Library Portal"
+msgstr ""
+"Is féidir teacht ar iarpháipéir scrúdaithe tríd an Tairseach Leabharlainne "
+"<u> <b>"
+
+#: .\labproj\templates\index.html:92 .\labproj\templates\index3.html:129
+msgid "How can I access my exam timetable?"
+msgstr "Conas is féidir liom teacht ar mo chlár ama scrúduithe?"
+
+#: .\labproj\templates\index.html:93 .\labproj\templates\index3.html:131
+msgid ""
+"Timetables are available on the TU Dublin website <u><b>exam section</b></u> "
+"and are published approximately one month before exams commence.  Publish "
+"dates will be widely advertised through social media and email."
+msgstr ""
+"Tá amchláir ar fáil ar shuíomh Gréasáin TU Bhaile Átha Cliath <u> <b> roinn "
+"na scrúduithe </b> </u> agus foilsítear iad thart ar mhí sula dtosaíonn na "
+"scrúduithe. Fógrófar dátaí foilsithe go forleathan trí na meáin shóisialta "
+"agus ríomhphost."
+
+#: .\labproj\templates\index.html:109
+msgid " How can I find the location of my exams?"
+msgstr "Conas is féidir liom suíomh mo scrúduithe a fháil?"
+
+#: .\labproj\templates\index.html:110 .\labproj\templates\index3.html:117
+msgid ""
+"The location of the exam will be detailed to each student in advance of the "
+"date normally with the exam timetable. Students should familiarize "
+"themselves with the location of the exam prior to the date of their first "
+"exam. On occasion the location of an exam may change for operational "
+"reasons, students <u><b>should check</b></u> the website for updates in "
+"advance of the day."
+msgstr ""
+"Tabharfar mionsonraí ar shuíomh an scrúdaithe do gach mac léinn roimh an "
+"dáta de ghnáth le tráthchlár na scrúduithe. Ba chóir do mhic léinn eolas a "
+"chur ar shuíomh an scrúdaithe roimh dháta a gcéad scrúdaithe. Uaireanta is "
+"féidir go n-athróidh suíomh an scrúdaithe ar chúiseanna oibríochta, ba "
+"cheart do mhic léinn <u> <b> an suíomh Gréasáin a sheiceáil </b> </u> chun "
+"nuashonruithe a fháil roimh an lá."
+
+#: .\labproj\templates\index.html:122 .\labproj\templates\index3.html:82
+msgid "Examination"
+msgstr "Scrúdú"
+
+#: .\labproj\templates\index.html:125 .\labproj\templates\index2.html:88
+#: .\labproj\templates\index3.html:84
+msgid "Do I need to register for exams?"
+msgstr "An gá dom clárú le haghaidh scrúduithe?"
+
+#: .\labproj\templates\index.html:126 .\labproj\templates\index3.html:86
+msgid "All registered students are automatically entered for exams."
+msgstr ""
+"Cuirtear gach mac léinn cláraithe isteach go huathoibríoch le haghaidh "
+"scrúduithe."
+
+#: .\labproj\templates\index.html:132 .\labproj\templates\index2.html:95
+#: .\labproj\templates\index3.html:89
+msgid "What do I need to gain entry to the exam venue on the day?"
+msgstr ""
+"Cad a theastaíonn uaim chun iontráil a fháil san ionad scrúduithe ar an lá?"
+
+#: .\labproj\templates\index.html:133 .\labproj\templates\index3.html:91
+msgid ""
+"All students should present a current <u><b>Student ID Card</b></u> to gain "
+"entry to an examination venue. Alternative photographic ID is also "
+"acceptable i.e. Passport or Garda ID."
+msgstr ""
+"Ba chóir do gach mac léinn <u> <b> Cárta Aitheantais Mac Léinn </b> </u> "
+"reatha a chur i láthair chun iontráil a fháil in ionad scrúdaithe. Glacfar "
+"le haitheantas grianghrafadóireachta malartach i.e. Pas nó ID an Gharda "
+"Síochána."
+
+#: .\labproj\templates\index.html:139 .\labproj\templates\index2.html:102
+#: .\labproj\templates\index3.html:94
+msgid "What happens if I am late for the exam?"
+msgstr "Cad a tharlóidh má táim déanach don scrúdú?"
+
+#: .\labproj\templates\index.html:140 .\labproj\templates\index3.html:96
+msgid ""
+"Normally, no student shall be admitted to the Exam more than one half hour "
+"after the start of the exam; in exceptional circumstances however, and "
+"provided that no other student sitting the same paper has left the Exam a "
+"student may be admitted later, at the discretion of the Exam Secretary.  In "
+"such circumstances extra time will not normally be allowed."
+msgstr ""
+"De ghnáth, ní ligfear aon mhac léinn isteach sa Scrúdú níos mó ná leathuair "
+"an chloig tar éis thús an scrúdaithe; in imthosca eisceachtúla, áfach, agus "
+"ar choinníoll nach bhfágfaidh aon mhac léinn eile a shuíonn an páipéar "
+"céanna an Scrúdú féadfar mac léinn a ligean isteach níos déanaí, de rogha "
+"Rúnaí an Scrúdaithe. Sna himthosca sin ní cheadófar am breise de ghnáth."
+
+#: .\labproj\templates\index.html:146 .\labproj\templates\index3.html:99
+msgid "What happens if I think I may have the wrong exam paper?"
+msgstr ""
+"Cad a tharlóidh má cheapaim go bhfuil an páipéar scrúdaithe mícheart agam?"
+
+#: .\labproj\templates\index.html:147 .\labproj\templates\index3.html:101
+msgid ""
+"If you think you have the wrong exam paper it is important that you notify "
+"and check with the exam invigilator immediately, it is up to you to ensure "
+"you are in possession of the correct paper and that you follow the "
+"instructions printed on the exam paper and the answer book."
+msgstr ""
+"Má cheapann tú go bhfuil an páipéar scrúdaithe mícheart agat tá sé "
+"tábhachtach go dtabharfaidh tú fógra agus seiceáil le feitheoir an "
+"scrúdaithe láithreach, is fútsa atá sé a chinntiú go bhfuil an páipéar ceart "
+"agat agus go leanann tú na treoracha atá clóite ar an bpáipéar scrúdaithe "
+"agus an leabhar freagraí."
+
+#: .\labproj\templates\index.html:153 .\labproj\templates\index3.html:104
+msgid "Do I need to confirm my attendance at the exam?"
+msgstr "An gá dom mo fhreastal ar an scrúdú a dhearbhú?"
+
+#: .\labproj\templates\index.html:154 .\labproj\templates\index3.html:106
+msgid ""
+"Students shall sign the Attendance Form when requested by the Invigilator, "
+"and shall leave their Student ID Card in a visible position on the desk."
+msgstr ""
+"Sínfidh mic léinn an Fhoirm Tinrimh nuair a iarrfaidh an Feitheoir é, agus "
+"fágfaidh siad a gCárta Aitheantais Mac Léinn in áit infheicthe ar an deasc."
+
+#: .\labproj\templates\index.html:166 .\labproj\templates\index3.html:137
+msgid "Special Arrangements, Illness and withdrawal"
+msgstr "Socruithe Speisialta, Breoiteacht agus tarraingt siar"
+
+#: .\labproj\templates\index.html:170 .\labproj\templates\index2.html:116
+#: .\labproj\templates\index3.html:139
+msgid ""
+"I am a student with a disability , I need extra help during the exams, what "
+"do I do?"
+msgstr ""
+"Is mac léinn faoi mhíchumas mé, teastaíonn cúnamh breise uaim le linn na "
+"scrúduithe, cad a dhéanfaidh mé?"
+
+#: .\labproj\templates\index.html:171 .\labproj\templates\index2.html:117
+#: .\labproj\templates\index3.html:141
+msgid ""
+"If you are a student with a disability, ensure you register with the "
+"<b><u>Disability Service</u></b> well in advance of the exam to ensure "
+"special arrangements can be put in place for the duration of exams."
+msgstr ""
+"Más mac léinn faoi mhíchumas tú, déan cinnte go gcláróidh tú leis an <b> <u> "
+"Seirbhís Míchumais </u> </b> i bhfad roimh an scrúdú lena chinntiú go "
+"bhféadtar socruithe speisialta a chur i bhfeidhm ar feadh ré na scrúduithe ."
+
+#: .\labproj\templates\index.html:177 .\labproj\templates\index3.html:144
+msgid ""
+"I need to take medication during my exam, should I tell someone before the "
+"exam starts?"
+msgstr ""
+"Caithfidh mé cógais a ghlacadh le linn mo scrúdaithe, ar cheart dom a rá le "
+"duine sula dtosaíonn an scrúdú?"
+
+#: .\labproj\templates\index.html:178 .\labproj\templates\index3.html:146
+msgid ""
+"Students required to take medication during an exam must inform the "
+"invigilator prior to commencement of the exam."
+msgstr ""
+"Ní mór do mhic léinn a gceanglaítear orthu cógais a ghlacadh le linn "
+"scrúdaithe an feitheoir a chur ar an eolas sula dtosaíonn an scrúdú."
+
+#: .\labproj\templates\index.html:184 .\labproj\templates\index3.html:149
+msgid "What happens if there is a serious incident during the exam?"
+msgstr ""
+"Cad a tharlóidh má tharlaíonn eachtra thromchúiseach le linn an scrúdaithe?"
+
+#: .\labproj\templates\index.html:185 .\labproj\templates\index3.html:151
+msgid ""
+"In the event of fire or other serious cause the safety of the students and "
+"the Institutes staff shall be the primary concern and the Invigilator(s) "
+"shall evacuate the Exam in an orderly manner and without delay.  In such "
+"circumstances the exam shall be declared void and shall be rescheduled."
+msgstr ""
+"I gcás dóiteáin nó cúis thromchúiseach eile is é sábháilteacht na mac léinn "
+"agus fhoireann na nInstitiúidí an phríomhchúram agus aslonnóidh an "
+"Feitheoir / na Feitheoirí an Scrúdú ar bhealach ordúil agus gan mhoill. Sna "
+"himthosca sin dearbhófar an scrúdú a bheith ar neamhní agus déanfar é a "
+"athsceidealú."
+
+#: .\labproj\templates\index.html:197 .\labproj\templates\index.html:204
+#: .\labproj\templates\index.html:211 .\labproj\templates\index.html:218
+#: .\labproj\templates\index2.html:153 .\labproj\templates\index2.html:160
+#: .\labproj\templates\index2.html:167 .\labproj\templates\index2.html:174
+#: .\labproj\templates\index3.html:186 .\labproj\templates\index3.html:193
+#: .\labproj\templates\index3.html:200 .\labproj\templates\index3.html:207
+msgid "Exams in"
+msgstr "Scrúduithe i"
+
+#: .\labproj\templates\index.html:227 .\labproj\templates\index2.html:183
+#: .\labproj\templates\index3.html:216
+msgid "By"
+msgstr "Le"
+
+#: .\labproj\templates\index2.html:47
+msgid "Menu"
+msgstr "Roghchlár"
+
+#: .\labproj\templates\index2.html:58
+msgid "Pick your Country"
+msgstr "Roghnaigh do Thír"
+
+#: .\labproj\templates\index2.html:61 .\labproj\templates\index3.html:29
+msgid "UK"
+msgstr "An Ríocht Aontaithe"
+
+#: .\labproj\templates\index2.html:85
+msgid "Common Questions"
+msgstr "Ceisteanna Coitianta"
+
+#: .\labproj\templates\index2.html:89
+msgid "No."
+msgstr "Níl."
+
+#: .\labproj\templates\index2.html:96
+msgid "A <u><b>Student ID Card</b></u> is needed to enter the exam venue."
+msgstr ""
+"Teastaíonn Cárta Aitheantais <u> <b> Mac Léinn </b> </u> chun dul isteach "
+"san ionad scrúdaithe."
+
+#: .\labproj\templates\index2.html:103
+msgid ""
+"Students are not allowed to enter the Exam more than one half hour after the "
+"start of the exam, except in some circumstances and if no other students "
+"sitting the same paper has left the exam hall. In those circumstances extra "
+"time will not be allowed."
+msgstr ""
+"Ní cheadaítear do mhic léinn dul isteach sa Scrúdú níos mó ná leathuair an "
+"chloig tar éis thús an scrúdaithe, ach amháin in imthosca áirithe agus mura "
+"bhfágann aon mhac léinn eile a shuíonn an páipéar céanna halla an "
+"scrúdaithe. Sna himthosca sin ní cheadófar am breise."
+
+#: .\labproj\templates\index2.html:109 .\labproj\templates\index3.html:115
+msgid "How can I find the location of my exams?"
+msgstr "Conas is féidir liom suíomh mo scrúduithe a fháil?"
+
+#: .\labproj\templates\index2.html:110
+msgid ""
+"The location of the exam will be emailed to each student in advance of the "
+"date with the exam timetable. Students should familiarize themselves with "
+"the location of the exam prior to the date of their first exam. On occasion "
+"the location of an exam may change for operational reasons, students "
+"<u><b>should check</b></u> the website for updates in advance of the day."
+msgstr ""
+"Tabharfar mionsonraí ar shuíomh an scrúdaithe do gach mac léinn roimh an "
+"dáta de ghnáth le tráthchlár na scrúduithe. Ba chóir do mhic léinn eolas a "
+"chur ar shuíomh an scrúdaithe roimh dháta a gcéad scrúdaithe. Uaireanta is "
+"féidir go n-athróidh suíomh an scrúdaithe ar chúiseanna oibríochta, ba "
+"cheart do mhic léinn <u> <b> an suíomh Gréasáin a sheiceáil </b> </u> chun "
+"nuashonruithe a fháil roimh an lá."
+
+#: .\labproj\templates\index2.html:140
+msgid "Related Content"
+msgstr "Ábhar Gaolmhar"
+
+#: .\labproj\templates\index3.html:158
+msgid "Exam Result"
+msgstr "Toradh Scrúdaithe"
+
+#: .\labproj\templates\index3.html:160
+msgid "Where can I access my result?"
+msgstr "Cá bhfaighidh mé mo thoradh?"
+
+#: .\labproj\templates\index3.html:162
+msgid ""
+"Students will be sent a link to their student email, when the results are "
+"available."
+msgstr ""
+"Seolfar nasc chuig a r-phost mac léinn chuig mic léinn, nuair a bheidh na "
+"torthaí ar fáil."
+
+#: .\labproj\templates\index3.html:165
+msgid "How will I find out if my results are ready for release?"
+msgstr "Conas a gheobhaidh mé amach an bhfuil mo thorthaí réidh le scaoileadh?"
+
+#: .\labproj\templates\index3.html:167
+msgid ""
+"All students will be notified by e-mail to their student e-mail account "
+"outlining the dates and times for release of exam results."
+msgstr ""
+"Tabharfar fógra do gach mac léinn trí r-phost chuig a gcuntas ríomhphoist "
+"mac léinn ag imlíniú na dátaí agus na hamanna chun torthaí na scrúduithe a "
+"scaoileadh."
+
+#: .\labproj\templates\index3.html:170
+msgid "I have failed my repeat exam what should I do?"
+msgstr "Theip orm mo athscrúdú cad ba cheart dom a dhéanamh?"
+
+#: .\labproj\templates\index3.html:172
+msgid ""
+"If you have failed your repeat exam/s you have three possible options open "
+"to you :"
+msgstr ""
+"Má theip ort do athscrúdú / scrúduithe tá trí rogha féideartha ar fáil duit:"
+
+#: .\labproj\templates\index3.html:174
+msgid ""
+"Carry the module into the next year: <br><b>Students may only ever carry a "
+"maximum of 10 ECTS credits so if you have failed more than 10 ECTS Credits "
+"this option is not available to you. Each school has different rules "
+"regarding carry modules and the decision of the exam board regarding carries "
+"is final. In some cases schools will not allow their students to carry any "
+"modules they retain the right to do."
+msgstr ""
+"Déan an modúl an bhliain seo chugainn: <br> <b> Ní fhéadfaidh mic léinn ach "
+"10 gcreidmheas ECTS a iompar riamh agus mar sin má theip ort níos mó ná 10 "
+"gCreidmheas ECTS níl an rogha seo ar fáil duit. Tá rialacha difriúla ag gach "
+"scoil maidir le modúil iompair agus is cinneadh críochnaitheach cinneadh an "
+"bhoird scrúdaithe maidir le hiompar. I roinnt cásanna ní ligfidh scoileanna "
+"dá gcuid mac léinn modúil ar bith a choinníonn siad an ceart a dhéanamh."
+
+#: .\labproj\templates\index3.html:175
+msgid "Internally repeat"
+msgstr "Déan arís go seachtrach"
+
+#: .\labproj\templates\index3.html:176
+msgid "Externally repeat"
+msgstr "Déan arís go seachtrach"
+
+#~ msgid "Language"
+#~ msgstr "Teanga"
