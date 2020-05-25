@@ -1,6 +1,7 @@
 # Webapp-for-TU-Dublin-Exam-Service
 
 This is a prototype web application that addresses the TU Dublin exam website service. This application is for software for global market 2.
+
 It adapts:
 - internationalization
 - localization
